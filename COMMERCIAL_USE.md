@@ -30,6 +30,6 @@ To discuss commercial licensing options, please contact:
 ## Disclaimer
 This notice does not affect your rights under the GPL-3.0 license for non-commercial use. Commercial use without a proper license may constitute a violation of copyright law.
 
-────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+───────────────────────────────────────────────
 
 Thank you for supporting ethical software usage and open-source sustainability!
