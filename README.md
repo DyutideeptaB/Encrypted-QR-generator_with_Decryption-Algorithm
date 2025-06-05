@@ -29,8 +29,7 @@ It includes:
 
 ## 🗂️ Folder Structure & File Format
 
-<pre> ```Project/
-│
+<pre> ``` Project/│
 ├── Data_Screener.py             # GUI interface for data collection
 ├── QR_with_Key_Generator.py     # Script to generate encrypted QR codes
 ├── Encrypted_QR_Generator.py    # Script to generate encrypted QR codes
@@ -41,13 +40,13 @@ It includes:
 │
 ├── Encoded/
 │   └── QRs/                     # Stores all generated QR images using Encrypted_QR_Generator.py
-│       └── <ID>.png             # Named using row-based identifier (e.g., 0001.png)
+│       └── `<ID>`.png             # Named using row-based identifier (e.g., 0001.png)
 │
 ├── Output/
 │   └── dataQR.xlsx              # Excel sheet storing generated input metadata from GUI
 │   └── QR_Keys_Info.xlsx        # Excel sheet storing corresponding "keys" from either QR generator files
 │   └── QRs/                     # Stores all generated QR images using QR_with_Key_Generator.py
-│       └── <ID>.png             # Named using row-based identifier (e.g., 0001.png)
+│       └── `<ID>`.png             # Named using row-based identifier (e.g., 0001.png)
 │
 ├── Image/
 │   └── background.jpg           # Optional image used for QR background
