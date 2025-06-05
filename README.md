@@ -1,0 +1,1 @@
+# Encrypted-QR-generator_with_Decryption-Algorithm
