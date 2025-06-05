@@ -29,7 +29,7 @@ It includes:
 
 ## 🗂️ Folder Structure & File Format
 
-Project/
+<pre> ```Project/
 │
 ├── Data_Screener.py             # GUI interface for data collection
 ├── QR_with_Key_Generator.py     # Script to generate encrypted QR codes
@@ -58,7 +58,7 @@ Project/
 ├── Decrypted_Row_Info.xlsx      # Excel sheet storing output for decrypted QRs using Decryption_Algorithm.py
 |
 |
-└── README.md                    # Project description and documentation
+└── README.md                    # Project description and documentation ``` </pre>
 
 ## 📁 File Format Summary
 *dataQR.xlsx:* Excel file storing each row of metadata inputs.
