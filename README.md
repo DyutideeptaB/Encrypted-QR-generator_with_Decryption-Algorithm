@@ -3,13 +3,13 @@ This project is a comprehensive solution designed for secure product data screen
 
 It includes:
 
-    📋 **Data Screener** GUI for structured data entry and validation
+- 📋 **Data Screener** GUI for structured data entry and validation
 
-    🔐 **Encrypted QR Generator** using Fernet keys
+- 🔐 **Encrypted QR Generator** using Fernet keys
 
-    🧩 **Decryption Algorithm** to read encrypted QR codes
+- 🧩 **Decryption Algorithm** to read encrypted QR codes
 
-    🖼️ *Optional* **Visual Enhancements** like dotted patterns and background layers
+- 🖼️ *Optional* **Visual Enhancements** like dotted patterns and background layers
 
 ## 💻 Features
 
@@ -23,9 +23,9 @@ It includes:
 
 **Stylized QR Presentation:**
 
-    Steganographic overlapping and compressed number bars printed on the right of each QR
+- Steganographic overlapping and compressed number bars printed on the right of each QR
 
-    Visual patterns overlaid to deter unauthorized scanning/copying
+- Visual patterns overlaid to deter unauthorized scanning/copying
 
 ## 🗂️ Folder Structure & File Format
 
@@ -67,31 +67,31 @@ It includes:
 
 **QR Images:**
 
-    File Name: *<RowIndex>.png*
+- File Name: *<RowIndex>.png*
 
-    Location: *Encoded/QRs/*
+- Location: *Encoded/QRs/*
 
-    Order: Saved in sequence based on row number in *dataQR.xlsx*
+- Order: Saved in sequence based on row number in *dataQR.xlsx*
 
-    Design: Depends on *QR Option* selected:
+- Design: Depends on *QR Option* selected:
 
-        "With Background" → Gradient + dotted overlay
+- "With Background" → Gradient + dotted overlay
 
-        "Without Background" → Plain white + sequence line, with visual dots retained
+- "Without Background" → Plain white + sequence line, with visual dots retained
 
 ## 🛠️ Tech Stack
 
-    **Python 3.8+**
+- **Python 3.8+**
 
-    **tkinter** – for the GUI
+- **tkinter** – for the GUI
 
-    **Pillow** – for image processing
+- **Pillow** – for image processing
 
-    **qrcode** – QR code generation
+- **qrcode** – QR code generation
 
-    **cryptography** – for encryption/decryption
+- **cryptography** – for encryption/decryption
 
-    **openpyxl** – for Excel file handling
+- **openpyxl** – for Excel file handling
 
 ## 🔐 Security Note
 The encryption uses **Fernet (symmetric AES-based encryption)**. Only users with the correct *.key* file can decrypt and read the QR content. Do not share the *encryption_key.key* publicly.
@@ -99,17 +99,17 @@ The encryption uses **Fernet (symmetric AES-based encryption)**. Only users with
 ## 🧪 Sample Output & QR Examples
 To help users understand the output structure and test the functionalities, the repository includes **pre-generated sample data**:
 
-    ✅ A few rows of metadata stored in *Output/dataQR.xlsx*
+- ✅ A few rows of metadata stored in *Output/dataQR.xlsx*
 
-    🖼️ Corresponding QR images saved under *Encoded/QRs/* OR *Output/QRs/*
-        Each file is named with a unique identifier (e.g., *4423.png*, *0284.png*) and demonstrates variations like:
+- 🖼️ Corresponding QR images saved under *Encoded/QRs/* OR *Output/QRs/*
+Each file is named with a unique identifier (e.g., *4423.png*, *0284.png*) and demonstrates variations like:
 
-            Encrypted content
+  - Encrypted content
 
-            With or without background
+  - With or without background
 
-            Stylized dotted overlay
+  - Stylized dotted overlay
 
-            Overlapping number sequences on the right
+  - Overlapping number sequences on the right
 
-    These examples can be used as a **reference** to verify script behavior or adapt for integration with your own datasets.
+These examples can be used as a **reference** to verify script behavior or adapt for integration with your own datasets.
