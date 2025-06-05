@@ -115,4 +115,4 @@ Each file is named with a unique identifier (e.g., *4423.png*, *0284.png*) and d
 These examples can be used as a **reference** to verify script behavior or adapt for integration with your own datasets.
 
 ## Commercial Usage
-Please review the "COMMERCIAL_USAGE.md" file for information on this.
+Please review the "COMMERCIAL_USE.md" file for information on this.
