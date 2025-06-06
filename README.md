@@ -36,7 +36,7 @@ It includes:
 ├── Decryption_Algorithm.py      # Script to decode encrypted QR images
 │
 ├── keys/
-│   ├── encryption_key.key       # Fernet symmetric encryption key
+│   └── encryption_key.key       # Fernet symmetric encryption key
 │
 ├── Output/
 │   └── dataQR.xlsx              # Excel sheet storing generated input metadata from GUI
@@ -95,7 +95,7 @@ To help users understand the output structure and test the functionalities, the 
 
 - ✅ All rows of metadata stored in *Output/dataQR.xlsx*
 
-- 🖼️ Corresponding QR images saved under *Output/Encrypted_QRs/* 
+- 🖼️ Corresponding QR images saved under folder *Output/Encrypted_QRs* 
 Each file is named with a unique identifier (e.g., *0107.png*, *1106.png*) and demonstrates variations like:
 
   - Encrypted content
@@ -113,6 +113,6 @@ Thank you for your interest in this project!
 
 This repository is licensed under the GNU General Public License v3.0 (GPL-3.0), which permits free use, modification, and distribution for personal, academic, and open-source purposes.
 
-If you or your organization are considering commercial use of these original scripts & utilities—such as integration into proprietary products, commercial redistribution, or use in a commercial service—I kindly request that you review the "COMMERCIAL_USE.md" file for information on this.
+If you or your organization are considering commercial use of these original scripts & utilities - such as integration into proprietary products, commercial redistribution, or use in a commercial service - I kindly request that you review the "COMMERCIAL_USE.md" file for information on this.
 
 Thank you for supporting ethical software usage and open-source sustainability!

@@ -28,8 +28,8 @@ If you intend to use this software commercially, you are required to obtain a se
 ## 📩 Contact for Commercial Licensing
 To discuss licensing options or request commercial usage rights, please contact:
 
-**Dyutideepta Banerjee**
-dyutideepta.banerjee@gmail.com
+Author: **Dyutideepta Banerjee**
+Email: dyutideepta.banerjee@gmail.com
 
 ## ⚖️ Disclaimer
 This notice **does not affect your rights under the GPL-3.0** license for non-commercial use. Commercial use without a proper license may constitute a violation of copyright law.
