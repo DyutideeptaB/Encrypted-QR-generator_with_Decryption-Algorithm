@@ -29,7 +29,7 @@ It includes:
 
 ## 🗂️ Folder Structure & File Format
 
-<pre>```Project/
+<pre>```Encrypted-QR-generator_with_Decryption-Algorithm/
 │
 ├── Data_Screener.py             # GUI interface for data collection
 ├── Encrypted_QR_Generator.py    # Script to generate encrypted QR codes
@@ -96,7 +96,7 @@ To help users understand the output structure and test the functionalities, the 
 - ✅ All rows of metadata stored in *Output/dataQR.xlsx*
 
 - 🖼️ Corresponding QR images saved under *Output/Encrypted_QRs/* 
-Each file is named with a unique identifier (e.g., *4423.png*, *0284.png*) and demonstrates variations like:
+Each file is named with a unique identifier (e.g., *0107.png*, *1106.png*) and demonstrates variations like:
 
   - Encrypted content
 
@@ -109,4 +109,10 @@ Each file is named with a unique identifier (e.g., *4423.png*, *0284.png*) and d
 These examples can be used as a **reference** to verify script behavior or adapt for integration with your own datasets.
 
 ## Commercial Usage
-Please review the "COMMERCIAL_USE.md" file for information on this.
+Thank you for your interest in this project!
+
+This repository is licensed under the GNU General Public License v3.0 (GPL-3.0), which permits free use, modification, and distribution for personal, academic, and open-source purposes.
+
+If you or your organization are considering commercial use of these original scripts & utilities—such as integration into proprietary products, commercial redistribution, or use in a commercial service—I kindly request that you review the "COMMERCIAL_USE.md" file for information on this.
+
+Thank you for supporting ethical software usage and open-source sustainability!
