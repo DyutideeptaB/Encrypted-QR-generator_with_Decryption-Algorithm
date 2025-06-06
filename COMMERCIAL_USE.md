@@ -28,7 +28,7 @@ If you intend to use this software commercially, you are required to obtain a se
 ## 📩 Contact for Commercial Licensing
 To discuss licensing options or request commercial usage rights, please contact:
 
-Author: **Dyutideepta Banerjee**
+Author: **Dyutideepta Banerjee**  
 Email: dyutideepta.banerjee@gmail.com
 
 ## ⚖️ Disclaimer
