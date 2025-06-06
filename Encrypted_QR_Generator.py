@@ -73,7 +73,7 @@ def save_selected_digits(sequence, start_index=18, end_index=22, filename="QR_Ke
     return selected_digits
 
 # Function to save the QR code image with a filename based on selected digits
-def save_qr_code(qr_image, sequence, folder="Encoded/QRs"):
+def save_qr_code(qr_image, sequence, folder="Output/Encrypted_QRs"):
     # Create folder if it doesn't exist
     if not os.path.exists(folder):
         os.makedirs(folder)

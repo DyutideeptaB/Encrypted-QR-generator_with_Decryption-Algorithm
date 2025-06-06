@@ -32,30 +32,24 @@ It includes:
 <pre>```Project/
 │
 ├── Data_Screener.py             # GUI interface for data collection
-├── QR_with_Key_Generator.py     # Script to generate encrypted QR codes
 ├── Encrypted_QR_Generator.py    # Script to generate encrypted QR codes
 ├── Decryption_Algorithm.py      # Script to decode encrypted QR images
 │
 ├── keys/
 │   ├── encryption_key.key       # Fernet symmetric encryption key
 │
-├── Encoded/
-│   └── QRs/                     # Stores all generated QR images using Encrypted_QR_Generator.py
-│       └── `<ID>`.png             # Named using row-based identifier (e.g., 0001.png)
-│
 ├── Output/
 │   └── dataQR.xlsx              # Excel sheet storing generated input metadata from GUI
-│   └── QR_Keys_Info.xlsx        # Excel sheet storing corresponding "keys" from either QR generator files
-│   └── QRs/                     # Stores all generated QR images using QR_with_Key_Generator.py
-│       └── `<ID>`.png             # Named using row-based identifier (e.g., 0001.png)
-│
+|   └── Encrypted_QRs/           # Stores all generated QR images using Encrypted_QR_Generator.py
+│       └── ID.png               # Named using row-based identifier (e.g., 0001.png)
+|
+├── Row_Info.json                # Metadata output from Encrypted_QR_Generator.py later used for decryption
+|
+├── Decrypted_Row_Info.xlsx      # Excel sheet storing output for decrypted QRs using Decryption_Algorithm.py
+|
 ├── Image/
 │   └── background.jpg           # Optional image used for QR background
 |   └── License Free.txt         # License of the free image used for demo
-│
-├── Row_Info.json                # Metadata output from either QR generator files later used for decryption
-|
-├── Decrypted_Row_Info.xlsx      # Excel sheet storing output for decrypted QRs using Decryption_Algorithm.py
 |
 |
 └── README.md                    # Project description and documentation```</pre>
@@ -67,11 +61,11 @@ It includes:
 
 **QR Images:**
 
-- File Name: *<RowIndex>.png*
+- File Name: *RowIndex.png*
 
-- Location: *Encoded/QRs/*
+- Location: *Output/Encrypted_QRs/*
 
-- Order: Saved in sequence based on row number in *dataQR.xlsx*
+- Order: Saved in sequence based on row number in *Output/dataQR.xlsx*
 
 - Design: Depends on *QR Option* selected:
 
@@ -99,9 +93,9 @@ The encryption uses **Fernet (symmetric AES-based encryption)**. Only users with
 ## 🧪 Sample Output & QR Examples
 To help users understand the output structure and test the functionalities, the repository includes **pre-generated sample data**:
 
-- ✅ A few rows of metadata stored in *Output/dataQR.xlsx*
+- ✅ All rows of metadata stored in *Output/dataQR.xlsx*
 
-- 🖼️ Corresponding QR images saved under *Encoded/QRs/* OR *Output/QRs/*
+- 🖼️ Corresponding QR images saved under *Output/Encrypted_QRs/* 
 Each file is named with a unique identifier (e.g., *4423.png*, *0284.png*) and demonstrates variations like:
 
   - Encrypted content
