@@ -11,7 +11,7 @@ from cryptography.fernet import Fernet, InvalidToken
 # Path to the folder containing key files
 KEYS_FOLDER = "keys"
 ROW_INFO_FILE = "Row_Info.json"
-OUTPUT_FILE = "Decrypted_Row_Info.xlsx"  # Can change to .csv if needed
+OUTPUT_FILE = "Output/Decrypted_Row_Info.xlsx"  # Can change to .csv if needed
 
 def load_all_keys(keys_folder):
     """Load all .key files from the specified folder."""

@@ -42,10 +42,10 @@ It includes:
 │   └── dataQR.xlsx              # Excel sheet storing generated input metadata from GUI
 |   └── Encrypted_QRs/           # Stores all generated QR images using Encrypted_QR_Generator.py
 │       └── ID.png               # Named using row-based identifier (e.g., 0001.png)
+│   └── Decrypted_Row_Info.xlsx  # Excel sheet storing output for decrypted QRs using Decryption_Algorithm.py
 |
 ├── Row_Info.json                # Metadata output from Encrypted_QR_Generator.py later used for decryption
 |
-├── Decrypted_Row_Info.xlsx      # Excel sheet storing output for decrypted QRs using Decryption_Algorithm.py
 |
 ├── Image/
 │   └── background.jpg           # Optional image used for QR background

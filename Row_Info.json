@@ -42,49 +42,5 @@
         "Other": "Laboratory",
         "qroption": "Without Background",
         "qrsize": 8.5
-    },
-    "gAAAAABoQpxJxNGiRTSwh3PKOMtQuJLYZSC9w5LKFeFjEz9KpOvOfP3fIZHS6bqNZhxkTtvGugz6wP9AULcK3wrBTGkIBuSR5A==": {
-        "First Name": "John",
-        "Last Name": "Doe",
-        "Title": "Mr.",
-        "Warehouse": "C",
-        "Product ID": "ID3",
-        "Registration status": "Registered",
-        "Other": NaN,
-        "qroption": "With Background",
-        "qrsize": 25.0
-    },
-    "gAAAAABoQpx-p-kqi1pN0-toRbCFGZY9_VdNZZCroJHM7HU6UFoZ7K1OmXEshNGdA0i6xvM1WP016Cx5-wSZnnP2vPKMynWSbA==": {
-        "First Name": "Gina",
-        "Last Name": "Kristen",
-        "Title": "Ms.",
-        "Warehouse": "A",
-        "Product ID": "Other",
-        "Registration status": "Not registered",
-        "Other": "IDqp",
-        "qroption": "Without Background",
-        "qrsize": 8.5
-    },
-    "gAAAAABoQpyC29HomyffeixAF92QLVQ_Gk2boyYAyPEcOEwAMNrjrSnRdhmiuQTiCIXr7QwOBC1COL_hJ5BWYPRTN_K6dpGKDg==": {
-        "First Name": "Lorem",
-        "Last Name": "Ipsum",
-        "Title": "Prefer not to say",
-        "Warehouse": "B",
-        "Product ID": "ID5",
-        "Registration status": "Not registered",
-        "Other": "variable",
-        "qroption": "With Background",
-        "qrsize": 45.0
-    },
-    "gAAAAABoQpyK3FQSLtW652XVwuAccIld72NbYf_p02O2cU3VFc5UGq7CrLNav0BrnluDaEtnCZlPpB3axP1tOY2EfeBxhkyMkg==": {
-        "First Name": "Michael",
-        "Last Name": "Faraday",
-        "Title": "Dr.",
-        "Warehouse": "Other",
-        "Product ID": "ID4",
-        "Registration status": "Registered",
-        "Other": "Laboratory",
-        "qroption": "Without Background",
-        "qrsize": 8.5
     }
-}
+}    
