@@ -46,7 +46,6 @@ It includes:
 |
 ├── Row_Info.json                # Metadata output from Encrypted_QR_Generator.py later used for decryption
 |
-|
 ├── Image/
 │   └── background.jpg           # Optional image used for QR background
 |   └── License Free.txt         # License of the free image used for demo
